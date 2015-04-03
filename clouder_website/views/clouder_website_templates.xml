@@ -6,11 +6,12 @@
 <template id="website.homepage" name="Homepage" page="True" priority="29">
   <t t-call="website.layout">
     <div id="wrap" class="oe_structure oe_empty">
-      <section class="oe_black mb0 mt0">
+      <section class="oe_black mt0 mb0">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 text-center mb128 mt128">
-              <h2>You think hosting your applications does not worth your time?</h2>
+            <div class="col-md-12 text-center" style="margin-top: 256px !important;">
+              <h2 class="mb128">You think hosting your applications does not worth your time?</h2>
+              <span class="fa fa-arrow-down fa-5x mb64"/>
             </div>
           </div>
         </div>
@@ -32,7 +33,9 @@
             </div>
             <div class="col-md-6 mt16">
               <h3>What is Clouder?</h3>
-              <p>Clouder is a group of Odoo modules which connect to your servers to easily create and maintain your own hosting infrastructure. Build by professionnals, wheter your are an hosting guru having all the infrastructure of your company on your shoulders or a geek newbie who want to deploy applications for his friends, you'll find in Clouder all you need : An open-source system which deploy the applications for you, using all the goods practices without you even knowing them.</p>
+              <p>Clouder is a group of Odoo modules which connect to your servers to easily create and maintain your own hosting infrastructure.</p>
+              <p>Build by professionnals, wheter your are an hosting guru having all the infrastructure of your company on your shoulders or a geek newbie who want to deploy applications for his friends, you'll find in Clouder all you need :</p>
+              <p>An open-source system which deploy the applications for you, using all the goods practices without you even knowing them.</p>
             </div>
           </div>
         </div>
@@ -42,7 +45,9 @@
           <div class="row">
             <div class="col-md-6 mt16">
               <h3>The problem</h3>
-              <p>Today, even if excellent opensources software exists, most peoples use closed-source internet services because they are convenient, and generally free. But then you become the product, losing your private life in the process and a part of your freedom. Even compagnies rarely hesitate to let go their confidential data, for convenience. This is happening because open-sources services are too difficult to install, not everyone can be an hosting guru and nobody can know how to host all applications on the Internet. We needed to do something.</p>
+              <p>Today, even if excellent opensources software exists, most peoples use closed-source internet services because they are convenient, and generally free.</p>
+              <p>But then you become the product, losing your private life in the process and a part of your freedom. Even compagnies rarely hesitate to let go their confidential data, for convenience.</p>
+              <p>This is happening because open-sources services are too difficult to install, not everyone can be an hosting guru and nobody can know how to host all applications on the Internet. We needed to do something.</p>
             </div>
             <div class="col-md-6 mt16">
               <img alt="Odoo text and image block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/gafa_logo.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
@@ -58,7 +63,9 @@
             </div>
             <div class="col-md-6 mt16">
               <h3>Our solution</h3>
-              <p>The key point is, this is not because you have technical knowledge that you need to know everything about an application before hosting it. You will use templates modules made by others, just install them and make it works, for you, your friends or your company. Then, only when problems occurs you'll need to do some research and understand how it works, but your first installation only took minutes.</p>
+              <p>The key point is, this is not because you have technical knowledge that you need to know everything about an application before hosting it.</p>
+              <p>You will use templates modules made by others, just install them and make it works, for you, your friends or your company.</p>
+              <p>Then, only when problems occurs you'll need to do some research and understand how it works, but your first installation only take minutes.</p>
             </div>
           </div>
         </div>
@@ -66,7 +73,7 @@
       <section>
         <div class="container">
           <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 mb48 mt32">
               <h3 class="text-muted text-center">Our ultimate goal is to keep the Internet how is was originally designed :</h3>
               <h2 class="text-center">A distributed network, where each peer is the equal to the others.</h2>
               <h4 style="text-align: center;">For this, we need to standardize the way we host open-source applications.</h4>
@@ -77,7 +84,7 @@
       <section class="oe_blue_light">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 mb0">
+            <div class="col-md-12 mb32">
               <h1 class="text-center">For who?</h1>
             </div>
           </div>
@@ -93,7 +100,7 @@
             </div>
             <div class="col-md-4">
               <img alt="Odoo - Sample 2 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/compagnies.jpg" style=""/>
-              <h4 class="mt16">Compagnies</h4>
+              <h4 class="mt16">Business</h4>
               <p>You want a reliable, secure infrastructure with powerful and controllable softwares for your company, but only one employee have technical skills?</p>
             </div>
             <div class="col-md-4">
@@ -108,7 +115,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 mt0 mb16">
-              <h3 class="text-center">Clouder will help you build a reliable infrastructure in no time</h3>
+              <h3 class="text-center">Clouder will help you build a reliable infrastructure in no time.</h3>
             </div>
           </div>
         </div>
@@ -141,17 +148,18 @@
               <span class="fa fa-cloud-upload fa-5x" style=""/>
               <h3 class="mt8 mb0">Scalable</h3>
               <div class="text-muted">Easily deploy your applications on a whole infrastructure, not a single server.<br/>
-You can use one Clouder to configure your personnal server as well as use it to manage the infrastructures of several companies.</div>
+You can use one Clouder to configure your personal server as well as use it to manage the infrastructures of several companies.</div>
             </div>
             <div class="col-md-4 text-center">
               <span class="fa fa-exchange fa-5x" style="animation-play-state: paused; transition: none 0s ease 0s"/>
               <h3 class="mt8 mb0">Links</h3>
-              <div class="text-muted">Links between applications</div>
+              <div class="text-muted">When you deploy a new application or component, each containers linked to it are automatically configured.<br/>
+ </div>
             </div>
             <div class="col-md-4 text-center">
               <span class="fa fa-upload fa-5x" style="animation-play-state: paused; transition: none 0s ease 0s"/>
               <h3 class="mt8 mb0">Platform Agnostic</h3>
-              <div class="text-muted">Clouder only take care of the applications, not the server under them.<br/>
+              <div class="text-muted">Clouder only take care of the applications, not the servers under them.<br/>
 This mean you can deploy applications on dedicated servers or virtual machines and manage your network as you want without worries.</div>
             </div>
           </div>
@@ -166,20 +174,21 @@ This mean you can deploy applications on dedicated servers or virtual machines a
           </div>
         </div>
       </section>
-      <section class="mb16 oe_dark">
+      <section class="oe_dark mb0 mt0">
         <div class="container">
           <div class="row mt16 mb16">
             <div class="text-center col-md-12">
               <span class="fa fa-heart fa-5x"/>
               <h3 class="mt8 mb0">Open-Source</h3>
-              <div class="text-muted">You will always own and control your own data, your infrastructure is yours.</div>
+              <div class="text-muted">You will always own and control your own data, your infrastructure is yours.<br/>
+Your Clouder itself is open-source, you can decide to use our services or install it on your servers.</div>
             </div>
           </div>
         </div>
       </section>
-      <section class="jumbotron mt0 oe_red mb0">
+      <section class="jumbotron oe_red mb0 mt0">
         <div class="container">
-          <h2 style="text-align: center;">Join the network</h2>
+          <h2 style="text-align: center;">Join the mailing-list</h2>
           <div class="js_follow_alias hidden" data-follow="on" data-id="5" data-object="mail.group">
             <div class="input-group js_mg_follow_form hidden">
               <input class="js_follow_email form-control" disabled="disabled" name="email" placeholder="your email..." type="email"/>
@@ -193,18 +202,148 @@ This mean you can deploy applications on dedicated servers or virtual machines a
           <div style="text-align: center;">
             <a class="btn btn-primary btn-lg" href="/page/website.contactus"><span class="fa fa-arrow-right" style=""/> Contact Us Now</a>
           </div>
-          <div style="text-align: center;"/>
-          <div style="text-align: center;"/>
-          <div style="text-align: center;"/>
-          <div style="text-align: center;"/>
-          <div style="text-align: center;"/>
-          <div style="text-align: center;"/>
-          <div style="text-align: center;"/>
         </div>
       </section>
     </div>
   </t>
 </template>
+
+<template id="footer_custom" inherit_id="website.layout" name="Footer">
+    <xpath expr="//footer"  position="attributes">
+        <attribute name="style">display:none;</attribute>
+    </xpath>
+</template>
+
+<template id="website.company_description" name="Company Description"/>
+
+
+<record id="menu_faq" model="website.menu">
+    <field name="name">FAQ</field>
+    <field name="url">page/clouder_website.faq</field>
+    <field name="parent_id" ref="website.main_menu"/>
+    <field name="sequence" type="int">2</field>
+</record>
+
+
+<template id="faq" name="FAQ" page="True" priority="29">
+  <t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="mt0 mb0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="text-center">FAQ</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt16 mb16">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mb0 mt0">
+              <h4 style="text-align: left;">What are the advantages of containers? Which technology are you using for it?</h4>
+            </div>
+            <div class="col-md-12 mb16 mt16">
+              <p>Containers are like virtual machines, you run an isolated operating system on another operating system. This is very good for security and on the contrary of virtual machines it does not consume resources for each container. This means you can have dozens or hundred of containers per server! This allow to have one container per application, and so each container has a specific purpose.</p>
+              <p>The concept of Clouder is generic and so we shall be able to connect it to several container technologies, but for now it is only compatible with <a href="https://www.docker.com/" target="_blank">Docker</a> for the container management.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt16 mb16">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mb0 mt0">
+              <h4 style="text-align: left;">What is Odoo and why using it?</h4>
+            </div>
+            <div class="col-md-12 mb16 mt16">
+              <p><a href="https://www.odoo.com/" target="_blank">Odoo</a> (Ex-OpenERP) is a suite of business application you can use to manage your company, from the sales to the accounting, and which now include a powerful CMS (this very page is powered by Odoo). It is very good for managing and storing constantly evolving datas and that exactly what an orchestrator like Clouder is.</p>
+              <p>What is very interesting with Odoo is the speed at which you develop new features. It is based on a high-level language, Python, and the Odoo framework take care of concepts as essential as models, backoffice interface, workflows, access rights and many many other things. For Clouder, we essentially just created some objects/fields and make them launch some system commands when some specific actions are triggered, that's all!</p>
+              <p>We bet on Odoo since 2009 and so far we never regretted it. Since then we were able to do more and more with it and now we think any start-up shall seriously consider Odoo for a large part of their infrastructure.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt16 mb16">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mb0 mt0">
+              <h4 style="text-align: left;">What are links?</h4>
+            </div>
+            <div class="col-md-12 mb16 mt16">
+              <p>Links represents the configuration needed for each applications to know the other applications they need to interact with, and the time needed to configure them.</p>
+              <p>As an exemple, when you deploy a new instance of Wordpress, you need to configure the DNS with the new subdomain, the proxy to know to which container this subdomain need to be redirected, the database,  the supervision to check the downtime / daily backups and the analytics for the visitors stats.</p>
+              <p>If you want to automatically deploy your instances of Wordpress, you don't want to do all that manually. Clouder provide an easy and flexible way to create links between applications so they are automatically configured.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt16 mb16">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mb0 mt0">
+              <h4 style="text-align: left;">Why should I use Clouder if I want to start a professional hosting company?</h4>
+            </div>
+            <div class="col-md-12 mb16 mt16">
+              <p>Clouder is scalable, this means your can manage as many servers as you need for your customers with one Clouder instance. You can have a strategy of maintaining an infrastructure for some big compagnies and set it quickly because of the ready-to-use, flexible and reliable template modules you'll find in Clouder, or just use the core module to create your owns.</p>
+              <p>But this is if you want to build a fully automated infrastructure that Clouder will really shine. Clouder contains many API you can use to connect on your website a form which will create the instances on Clouder, and then Clouder will take care to automatically install it. Clouder is the abstraction layer between your website and your infrastructure.<br/>
+Also it's really easy to build packages and verticalizations. For example with Odoo, you can add some community modules for Hotel management to your package and configure your application so they are automatically installed, you publish the form on your website and you can now propose a fully automated Hotel verticalization to your visitors. Since the Odoo template module already exist, you can do that for 50 lines of code or even directly on the graphical interface.<br/>
+With Clouder, you can take the good softwares you know, with the modules which works well even if not in the core of their software and build an hosting offer around it so anyone can just fill a form and find a perfect, pre-configured, system for them in just seconds because you made the selection for them.</p>
+              <p>In any case, you'll need to develop your own scripts to manage your infrastructure, theses are generally the biggest investment and added value of all hosting companies and each have their own, more or less difficult to maintain.<br/>
+We want to end that. This is because there is today no good enough scripts everyone can use to easily build a complete infrastructure and the experts with the best skills are always reinventing the wheel that everyone is using closed-source SaaS services. Instead of building your own script, create a template module in Clouder, you'll save time, money, and little by little you'll help us turn the tables.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt16 mb16">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mb0 mt0">
+              <h4 style="text-align: left;">How do I host my own application?</h4>
+            </div>
+            <div class="col-md-12 mb16 mt16">
+              <p>If you want to host an application which is not in the available template modules, you need to create a template module yourself. Look at the <a href="https://github.com/clouder-community/clouder" target="_blank">available template modules</a> to know how to do it.</p>
+              <p>Each template module have :</p>
+              <ul>
+                <li>Xml files which create data inside the Clouder like applications and images. Here you'll especially specify the dockerfile which will be used to build the image of your containers. A typical template module contains 200 lines of Xml code.</li>
+                <li>Python files which contain the code to execute system commands when events happen in Clouder, like when a link need to be configured between two applications. A typical template module contains 500 lines of Python code for covering all events.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mt16 mb16">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center mb0 mt0">
+              <h4 style="text-align: left;">Yet another project for auto-hosting! Why did you not used an existing one?</h4>
+            </div>
+            <div class="col-md-12 mb16 mt16">
+              <p>We tried, but there was no project which fit our requirements : Manage a whole infrastructure and not a single server with a full open-source orchestrator, with strong links between the applications. We shall be able to deploy an instance of any application and integrate it with the other components just by filling a simple form, this is the ultimate goal of Clouder, and there was no good enough solution for this on the market.</p>
+              <ul>
+                <li>
+                  <h6>Why not Arkos/Cozycloud/Yunohost/Sandstorm ?</h6>
+                </li>
+              </ul>
+              <p>Thoses are excellent projects but they all have the same pitfall : They can only manage one server, and there is not real links between the applications. Note that there is no incompatibilities with Clouder, we can host them with it and so Clouder can be used to make them easily available.</p>
+              <ul>
+                <li>
+                  <h6>What about Bitnami ?</h6>
+                </li>
+              </ul>
+              <p>Their technology is impressive and even if you stop using their services you keep the installations of your applications so there is no real lock-in, we appreciate that.<br/>
+But even if their packages are open-sourced the real equivalent of a Clouder instance is their website itself, which is closed-source. Morover, there is no links between applications and you have to configure the applications manually so they know each others.<br/>
+That said we'd like to be as easy to install as them, but our goal is slightly different and we had to make some sacrifices.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</template>
+
+
+
 
      </data>
 </openerp>

@@ -24,7 +24,7 @@
     'name': 'Clouder Website',
     'version': '1.0',
     'category': 'Clouder',
-    'depends': ['base','website'],
+    'depends': ['base','website','website_crm'],
     'author': 'Yannick Buron (Clouder)',
     'license': 'Other OSI approved licence',
     'website': 'https://github.com/YannickB/clouder-website',
