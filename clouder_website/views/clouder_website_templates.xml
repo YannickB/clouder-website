@@ -35,7 +35,7 @@
               <h3>What is Clouder?</h3>
               <p>Clouder is a group of Odoo modules which connect to your servers to easily create and maintain your own hosting infrastructure.</p>
               <p>Build by professionnals, wheter your are an hosting guru having all the infrastructure of your company on your shoulders or a geek newbie who want to deploy applications for his friends, you'll find in Clouder all you need :</p>
-              <p>An open-source system which deploy the applications for you, using all the goods practices without you even knowing them.</p>
+              <p>An open-source system which deploy the applications for you, using all the good practices without you even knowing them.</p>
             </div>
           </div>
         </div>
@@ -64,8 +64,8 @@
             <div class="col-md-6 mt16">
               <h3>Our solution</h3>
               <p>The key point is, this is not because you have technical knowledge that you need to know everything about an application before hosting it.</p>
-              <p>You will use templates modules made by others, just install them and make it works, for you, your friends or your company.</p>
-              <p>Then, only when problems occurs you'll need to do some research and understand how it works, but your first installation only take minutes.</p>
+              <p>You will use templates modules made by others, just install them and make it work, for you, your friends or your company.</p>
+              <p>Then, only when problems occur you'll need to do some research and understand how it works, but your first installation only takes minutes.</p>
             </div>
           </div>
         </div>
@@ -219,7 +219,7 @@ Your Clouder itself is open-source, you can decide to use our services or instal
 
 <record id="menu_faq" model="website.menu">
     <field name="name">FAQ</field>
-    <field name="url">page/clouder_website.faq</field>
+    <field name="url">clouder_website.faq</field>
     <field name="parent_id" ref="website.main_menu"/>
     <field name="sequence" type="int">2</field>
 </record>
