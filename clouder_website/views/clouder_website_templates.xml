@@ -29,7 +29,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 mt16">
-              <img alt="Odoo image and text block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/what-is-clouder.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+              <img alt="Odoo image and text block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/what-is-clouder.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s; width:100%;"/>
             </div>
             <div class="col-md-6 mt16">
               <h3>What is Clouder?</h3>
@@ -50,7 +50,7 @@
               <p>This is happening because open-sources services are too difficult to install, not everyone can be an hosting guru and nobody can know how to host all applications on the Internet. We needed to do something.</p>
             </div>
             <div class="col-md-6 mt16">
-              <img alt="Odoo text and image block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/gafa_logo.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+              <img alt="Odoo text and image block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/gafa_logo.png" style="animation-play-state: paused; transition: none 0s ease 0s; width:100%;"/>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 mt16">
-              <img alt="Odoo image and text block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/helping-each-other.jpg" style="height: 20em; text-align: center; animation-play-state: paused; transition: none 0s ease 0s"/>
+              <img alt="Odoo image and text block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/helping-each-other.jpg" style="height: 20em; text-align: center; animation-play-state: paused; transition: none 0s ease 0s; width:100%;"/>
             </div>
             <div class="col-md-6 mt16">
               <h3>Our solution</h3>
@@ -94,17 +94,17 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <img alt="Odoo - Sample 1 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/friends.jpg" style=""/>
+              <img alt="Odoo - Sample 1 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/friends.jpg" style="width:100%;"/>
               <h4 class="mt16">Friends</h4>
               <p>You have some technical knowledge, you want to promote open-source software to your friends but you know maintaining it will be a nightmare?</p>
             </div>
             <div class="col-md-4">
-              <img alt="Odoo - Sample 2 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/compagnies.jpg" style=""/>
+              <img alt="Odoo - Sample 2 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/compagnies.jpg" style="width:100%;"/>
               <h4 class="mt16">Business</h4>
               <p>You want a reliable, secure infrastructure with powerful and controllable softwares for your company, but only one employee have technical skills?</p>
             </div>
             <div class="col-md-4">
-              <img alt="Odoo - Sample 3 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/hosters.jpg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
+              <img alt="Odoo - Sample 3 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/hosters.jpg" style="animation-play-state: paused; transition: none 0s ease 0s; width:100%;"/>
               <h4 class="mt16">Hosters</h4>
               <p>You want to help the others who don't have enough time or technical knowledge, and gain your life thanks to it?</p>
             </div>
@@ -127,7 +127,7 @@
               <h2>How it works</h2>
             </div>
             <div class="col-md-12">
-              <img alt="Odoo CMS - a big picture" class="img img-responsive" src="/clouder_website/static/src/img/library/schema.png" style="margin: 0 auto"/>
+              <img alt="Odoo CMS - a big picture" class="img img-responsive" src="/clouder_website/static/src/img/library/schema.png" style="margin: 0 auto; width:100%;"/>
             </div>
           </div>
         </div>
