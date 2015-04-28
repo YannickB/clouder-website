@@ -10,7 +10,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center" style="margin-top: 256px !important;">
-              <h2 class="mb128">You think hosting your applications does not worth your time?</h2>
+              <h2 class="mb128">You think hosting your applications is not worth your time?</h2>
               <span class="fa fa-arrow-down fa-5x mb64"/>
             </div>
           </div>
@@ -29,13 +29,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 mt16">
-              <img alt="Odoo image and text block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/what-is-clouder.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s; width:100%;"/>
+              <img alt="Odoo image and text block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/what-is-clouder.jpeg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
             </div>
             <div class="col-md-6 mt16">
               <h3>What is Clouder?</h3>
               <p>Clouder is a group of Odoo modules which connect to your servers to easily create and maintain your own hosting infrastructure.</p>
-              <p>Build by professionnals, wheter your are an hosting guru having all the infrastructure of your company on your shoulders or a geek newbie who want to deploy applications for his friends, you'll find in Clouder all you need :</p>
-              <p>An open-source system which deploy the applications for you, using all the good practices without you even knowing them.</p>
+              <p>Build by professionnals, wheter you are a hosting guru with all the infrastructure of your company on your shoulders or a geek newbie who want to deploy applications for their friends, in Clouder, you'll find everything you need :</p>
+              <p>An open source system which deploys the applications for you, using all the best practices without you needing to know them.</p>
             </div>
           </div>
         </div>
@@ -45,12 +45,12 @@
           <div class="row">
             <div class="col-md-6 mt16">
               <h3>The problem</h3>
-              <p>Today, even if excellent opensources software exists, most peoples use closed-source internet services because they are convenient, and generally free.</p>
-              <p>But then you become the product, losing your private life in the process and a part of your freedom. Even compagnies rarely hesitate to let go their confidential data, for convenience.</p>
-              <p>This is happening because open-sources services are too difficult to install, not everyone can be an hosting guru and nobody can know how to host all applications on the Internet. We needed to do something.</p>
+              <p>Today, even if excellent open source software exists, most people use closed-source internet services because they are convenient, and generally free.</p>
+              <p>But then you become the product, losing your private life in the process and a part of your freedom. Even companies rarely hesitate to give up their confidential data, for convenience.</p>
+              <p>This is happening because open source services are too difficult to install, not everyone can be an hosting guru and nobody can know how to host all applications on the Internet. We had to do something.</p>
             </div>
             <div class="col-md-6 mt16">
-              <img alt="Odoo text and image block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/gafa_logo.png" style="animation-play-state: paused; transition: none 0s ease 0s; width:100%;"/>
+              <img alt="Odoo text and image block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/gafa_logo.png" style="animation-play-state: paused; transition: none 0s ease 0s"/>
             </div>
           </div>
         </div>
@@ -59,13 +59,13 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6 mt16">
-              <img alt="Odoo image and text block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/helping-each-other.jpg" style="height: 20em; text-align: center; animation-play-state: paused; transition: none 0s ease 0s; width:100%;"/>
+              <img alt="Odoo image and text block" class="img img-responsive mb16 img-rounded" src="/clouder_website/static/src/img/library/helping-each-other.jpg" style="height: 20em; text-align: center; animation-play-state: paused; transition: none 0s ease 0s"/>
             </div>
             <div class="col-md-6 mt16">
               <h3>Our solution</h3>
-              <p>The key point is, this is not because you have technical knowledge that you need to know everything about an application before hosting it.</p>
-              <p>You will use templates modules made by others, just install them and make it work, for you, your friends or your company.</p>
-              <p>Then, only when problems occur you'll need to do some research and understand how it works, but your first installation only takes minutes.</p>
+              <p>The key point is not requiring great technical knowledge or the assumption that you need to know everything about an application before hosting it.</p>
+              <p>Instead you can use template modules made by others, just install them and make it work, for you, your friends or your company.</p>
+              <p>Over time, if any problems occur, you may need to do some research to better understand your applications but your first installation only takes minutes.</p>
             </div>
           </div>
         </div>
@@ -94,19 +94,19 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <img alt="Odoo - Sample 1 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/friends.jpg" style="width:100%;"/>
+              <img alt="Odoo - Sample 1 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/friends.jpg" style=""/>
               <h4 class="mt16">Friends</h4>
-              <p>You have some technical knowledge, you want to promote open-source software to your friends but you know maintaining it will be a nightmare?</p>
+              <p>You have some technical knowledge, you want to promote open-source software to your friends but you know that maintaining it will be a nightmare?</p>
             </div>
             <div class="col-md-4">
-              <img alt="Odoo - Sample 2 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/compagnies.jpg" style="width:100%;"/>
+              <img alt="Odoo - Sample 2 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/compagnies.jpg" style=""/>
               <h4 class="mt16">Business</h4>
-              <p>You want a reliable, secure infrastructure with powerful and controllable softwares for your company, but only one employee have technical skills?</p>
+              <p>You want a reliable, secure infrastructure with powerful and controllable software for your company, but only one employee is technically skilled?</p>
             </div>
             <div class="col-md-4">
-              <img alt="Odoo - Sample 3 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/hosters.jpg" style="animation-play-state: paused; transition: none 0s ease 0s; width:100%;"/>
+              <img alt="Odoo - Sample 3 for three columns" class="img img-rounded img-responsive" src="/clouder_website/static/src/img/library/hosters.jpg" style="animation-play-state: paused; transition: none 0s ease 0s"/>
               <h4 class="mt16">Hosters</h4>
-              <p>You want to help the others who don't have enough time or technical knowledge, and gain your life thanks to it?</p>
+              <p>You want to help others who don't have enough time or technical knowledge, and earn a living doing it?</p>
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@
               <h2>How it works</h2>
             </div>
             <div class="col-md-12">
-              <img alt="Odoo CMS - a big picture" class="img img-responsive" src="/clouder_website/static/src/img/library/schema.png" style="margin: 0 auto; width:100%;"/>
+              <img alt="Odoo CMS - a big picture" class="img img-responsive" src="/clouder_website/static/src/img/library/schema.png" style="margin: 0 auto"/>
             </div>
           </div>
         </div>
@@ -147,20 +147,20 @@
             <div class="col-md-4 text-center">
               <span class="fa fa-cloud-upload fa-5x" style=""/>
               <h3 class="mt8 mb0">Scalable</h3>
-              <div class="text-muted">Easily deploy your applications on a whole infrastructure, not a single server.<br/>
+              <div class="text-muted">Easily deploy your applications over a whole infrastructure, not a single server.<br/>
 You can use one Clouder to configure your personal server as well as use it to manage the infrastructures of several companies.</div>
             </div>
             <div class="col-md-4 text-center">
               <span class="fa fa-exchange fa-5x" style="animation-play-state: paused; transition: none 0s ease 0s"/>
               <h3 class="mt8 mb0">Links</h3>
-              <div class="text-muted">When you deploy a new application or component, each containers linked to it are automatically configured.<br/>
+              <div class="text-muted">When you deploy a new application or component, each container linked to it is automatically configured.<br/>
  </div>
             </div>
             <div class="col-md-4 text-center">
               <span class="fa fa-upload fa-5x" style="animation-play-state: paused; transition: none 0s ease 0s"/>
               <h3 class="mt8 mb0">Platform Agnostic</h3>
-              <div class="text-muted">Clouder only take care of the applications, not the servers under them.<br/>
-This mean you can deploy applications on dedicated servers or virtual machines and manage your network as you want without worries.</div>
+              <div class="text-muted">Clouder only takes care of the applications, not the servers underneath them.<br/>
+This mean that you can deploy applications on dedicated servers or virtual machines and manage your network as you wish, without worries.</div>
             </div>
           </div>
         </div>
@@ -179,9 +179,9 @@ This mean you can deploy applications on dedicated servers or virtual machines a
           <div class="row mt16 mb16">
             <div class="text-center col-md-12">
               <span class="fa fa-heart fa-5x"/>
-              <h3 class="mt8 mb0">Open-Source</h3>
+              <h3 class="mt8 mb0">Open Source</h3>
               <div class="text-muted">You will always own and control your own data, your infrastructure is yours.<br/>
-Your Clouder itself is open-source, you can decide to use our services or install it on your servers.</div>
+Your Clouder itself is open source, you can decide to use our services or install it on your servers.</div>
             </div>
           </div>
         </div>
