@@ -198,6 +198,9 @@ Your Clouder itself is open source, you can decide to use our services or instal
             </div>
             <p class="js_mg_details well well-sm" style="text-align: center;"><span class="js_mg_email" href="mailto:community@goclouder.net"><i class="fa fa-envelope-o"/><a class="js_mg_email" href="mailto:community@goclouder.net"> send mail</a> - </span><i class="fa fa-file-o"/><a class="js_mg_link" href="/groups/5"> archives</a> - <i class="fa fa-times"/><a class="js_unfollow_btn" href="#"> unsubscribe</a></p>
           </div>
+          <div style="text-align: center;">
+            <a class="btn btn-primary btn-lg" href="/page/clouder_website.try-it"><span class="fa fa-arrow-right" style=""/> Try it !</a>
+          </div>
           <h2 style="text-align: center;">OR</h2>
           <div style="text-align: center;">
             <a class="btn btn-primary btn-lg" href="/page/website.contactus"><span class="fa fa-arrow-right" style=""/> Contact Us Now</a>
@@ -216,12 +219,45 @@ Your Clouder itself is open source, you can decide to use our services or instal
 
 <template id="website.company_description" name="Company Description"/>
 
+<record id="menu_tryit" model="website.menu">
+    <field name="name">Try it !</field>
+    <field name="url">/page/clouder_website.try-it</field>
+    <field name="parent_id" ref="website.main_menu"/>
+    <field name="sequence" type="int">2</field>
+</record>
+
+<template id="try-it" name="Try it !" page="True" priority="27">
+<t t-name="website.try-it">
+  <t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="mb0 mt0" style="">
+        <div class="container">
+          <div style="text-align: center;">
+            <p>You can use the link below to access to our demo instance of Clouder</p>
+            <a class="btn btn-primary btn-lg" target="_blank" href="https://demo.goclouder.net"><span class="fa fa-arrow-right" style=""/> Access our live demo now !</a>
+            <p>Login : admin / admin</p>
+            <p>This Clouder instance is connected to a demo server used only for demo and development purposes. It contains no sensitive nor production data, so you can break everything if you want or use the ssh key to connect to the server to see what happen.<br/>
+Two url shall be created by the demo instance (unless someone broke them before we reset it) :</p>
+            <p><a target="_blank" href="http://clouder.sddemo.goclouder.net">http://clouder.sddemo.goclouder.net</a> (admin / admin)</p>
+            <p><a target="_blank" href="http://shinken.sddemo.goclouder.net">http://shinken.sddemo.goclouder.net</a> (admin / admin)</p>
+          </div>
+          <h2 style="text-align: center;">OR</h2>
+          <div style="text-align: center;">
+            <p>We can also create a private instance for you and deploy the infrastructure on one of your own server / virtual machines. We only need for this to have an ssh access, that's all!</p>
+            <a class="btn btn-primary btn-lg" href="/page/website.contactus"><span class="fa fa-arrow-right" style=""/> Request your free and personal Clouder instance</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>
+</template>
 
 <record id="menu_faq" model="website.menu">
     <field name="name">FAQ</field>
-    <field name="url">clouder_website.faq</field>
+    <field name="url">/page/clouder_website.faq</field>
     <field name="parent_id" ref="website.main_menu"/>
-    <field name="sequence" type="int">2</field>
+    <field name="sequence" type="int">3</field>
 </record>
 
 
