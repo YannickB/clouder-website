@@ -188,6 +188,10 @@ Your Clouder itself is open source, you can decide to use our services or instal
       </section>
       <section class="jumbotron oe_red mb0 mt0">
         <div class="container">
+          <h2 style="text-align: center;">Need help ?</h2>
+          <div style="text-align: center;">
+            <a class="btn btn-primary btn-lg" target="_blank" href="https://gitter.im/clouder-community/clouder"><span class="fa fa-arrow-right" style=""/> Join us on our public chatroom</a>
+          </div>
           <h2 style="text-align: center;">Join the mailing-list</h2>
           <div class="js_follow_alias hidden" data-follow="on" data-id="5" data-object="mail.group">
             <div class="input-group js_mg_follow_form hidden">
